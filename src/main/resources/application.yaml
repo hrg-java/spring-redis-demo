@@ -2,7 +2,7 @@ spring:
   redis:
     host: r-2ze4ulc2psmev308vdpd.tairpena.rds.aliyuncs.com
     port: 6379
-    password: Ogilvy007
+    password: ******
     username: hrg
     lettuce:
       pool:
