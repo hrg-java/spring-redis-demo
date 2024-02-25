@@ -1,1 +1,14 @@
 # spring-redis-demo
+
+spring:
+    redis:
+        host: r-2ze4ulc2psmev308vdpd.tairpena.rds.aliyuncs.com
+        port: 6379
+        password: ******
+        username: hrg
+    lettuce:
+        pool:
+            max-active: 8
+            max-idle: 8
+            min-idle: 0
+            max-wait: 100ms
